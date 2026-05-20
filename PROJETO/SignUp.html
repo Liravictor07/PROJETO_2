@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua Conta</title>
+
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <h1 class="titulo">FarmáciaDigi+</h1>
+
+            <img src="img/Logo.png"
+                 alt="Logo Digi+"
+                 width="25"
+                 height="25">
+
+            <div class="botao">
+
+                <a href="#">
+                    <img src="img/Carrinho.png"
+                         alt="Compras"
+                         width="25">
+                </a>
+
+                <a href="#">
+                    <img src="img/User.png"
+                         alt="Conta"
+                         width="25">
+                </a>
+
+            </div>
+
+        </header>
+
+        <!-- FORMULÁRIO -->
+
+        <section class="formulario">
+
+            <h1>Crie sua Conta na Digi+</h1>
+
+            <form action="http://localhost:8080/cadastro"
+                  method="post">
+
+                <input type="text"
+                       name="nome"
+                       id="nome"
+                       placeholder="Nome"
+                       required>
+
+                <input type="text"
+                       name="sobrenome"
+                       id="sobrenome"
+                       placeholder="Sobrenome"
+                       required>
+
+                <h2>Data de Nascimento</h2>
+
+                <input type="date"
+                       name="data-nasc"
+                       id="data-nasc"
+                       required>
+
+                <input type="email"
+                       name="email"
+                       id="email"
+                       placeholder="E-mail"
+                       required>
+
+                <input type="password"
+                       name="senha"
+                       id="senha"
+                       placeholder="Crie sua Senha"
+                       required>
+
+                <input type="password"
+                       name="confirm-senha"
+                       id="confirm-senha"
+                       placeholder="Confirme sua Senha"
+                       required>
+
+                <input type="tel"
+                       name="telefone"
+                       id="telefone"
+                       placeholder="Número"
+                       required>
+
+                <button type="submit">
+                    Criar Conta
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <section class="links">
+
+                <aside>
+
+                    <a href="#">Institucional</a>
+                    <a href="#">Quem Somos</a>
+                    <a href="#">Ações Sociais</a>
+                    <a href="#">Políticas de Privacidade</a>
+                    <a href="#">Parceiros de Entrega</a>
+
+                </aside>
+
+                <aside>
+
+                    <a href="#">Central de Ajuda</a>
+                    <a href="#">Meus Pedidos</a>
+                    <a href="#">Minha Conta</a>
+                    <a href="#">Dados Pessoais</a>
+
+                </aside>
+
+            </section>
+
+            <section class="QrCode">
+
+                <p>Nosso App</p>
+
+                <img src="img/ic_baseline-qrcode.png"
+                     alt="QRCode"
+                     width="100">
+
+            </section>
+
+            <section class="Redes">
+
+                <a href="#">
+                    <img src="img/Instagram.png"
+                         alt="Instagram"
+                         width="50"
+                         height="50">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    <img src="img/Whatsapp.png"
+                         alt="Whatsapp"
+                         width="50"
+                         height="50">
+                    Whatsapp
+                </a>
+
+                <a href="#">
+                    <img src="img/LinkedIn.png"
+                         alt="LinkedIn"
+                         width="50"
+                         height="50">
+                    LinkedIn
+                </a>
+
+            </section>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
